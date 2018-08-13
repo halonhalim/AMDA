@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+/*======================================================================
+	Creator     : Abdur Rahman Tarun
+	E-mail		: tarun@wanitbd.com
+	Date        : 00/00/2016
+========================================================================*/
+
+
+
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:89%;
+	margin-left:65px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px; 
+}
+.nbs-flexisel-item {
+    width:95%;
+    float:left;
+    margin:0px;
+    cursor:pointer;
+/*    position:relative;
+*/    line-height:0px;
+
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+/*    position: relative;
+*/
+    max-width:109px;
+    max-height:89px;
+	margin:0 auto;
+}
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left{
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+   /* opacity: 0.5;*/
+}
+.nbs-flexisel-nav-right {
+    width: 41px;
+    height: 50px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+   /* opacity: 0.5;*/
+}
+
+.nbs-flexisel-nav-left {
+    left: 5px;
+    background:url(../images/prev.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: 16px;
+    background: url(../images/next.png)no-repeat;
+}

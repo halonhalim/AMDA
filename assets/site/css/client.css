@@ -1,0 +1,109 @@
+
+.our-clients h3{
+    font-size: 30px;
+    line-height: 52px;
+    color: #000;
+    font-family: 'Philosopher', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+    text-align: center;
+    border-bottom: 1px double #dfdfdf;
+    background: url("../images/interface/bg_clienttext.png") no-repeat bottom center;
+}
+/*----gallery--*/
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+    display:none;
+}
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+	margin-bottom:40px;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    text-align:center;
+}
+.nbs-flexisel-inner {
+    overflow:hidden;
+    width:100%;
+}
+.nbs-flexisel-item {
+    float:left;
+    margin:0px ;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:89px;
+    max-height:1505px;
+}
+/*** Navigation ***/
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 18px;
+    height: 28px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+/*}*/
+/*.nbs-flexisel-nav-left {*/
+    /*left: -20px;*/
+    /*background: url(../images/interface/button-previous.png) no-repeat;*/
+/*}*/
+/*.nbs-flexisel-nav-right {*/
+    /*right: -20px;*/
+    /*background: url(../images/interface/button-next.png) no-repeat;*/
+/*}*/
+/*----------*/
+.gallery_box{
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+    height: 135px;
+}
+.gallery_box h4{
+    font-size: 20px;
+    line-height: 64px;
+    color: #505050;
+    font-family: 'Philosopher', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+    .nbs-flexisel-nav-left{
+        left: 5px;
+    }
+    .nbs-flexisel-nav-right{
+        right: 5px;
+    }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .nbs-flexisel-nav-left{
+        left: 5px;
+    }
+    .nbs-flexisel-nav-right{
+        right: 5px;
+    }
+
+}

@@ -1,0 +1,94 @@
+@charset "utf-8";/*unicode*/
+/*======================================================================
+	Project Name: 
+	Creator     : Jalal Ahamad
+	E-mail		: mavrick.jalal@gmail.com
+	Date        : 2013-0-0
+========================================================================*/
+body{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#fff;
+	}
+/*===========@Global Styles ============*/
+*{margin:0; padding:0; outline:none}
+img,fieldset{border:0}
+a{text-decoration:none}
+
+/*===================================================================
+								HeaderInner
+=====================================================================*/
+.product_gallary{
+	width:100%;
+	overflow:hidden;
+/*	height:255px;
+*/	margin:15px auto 0;
+	position:relative;
+	}
+.product_gallary h3{
+	font-size:18px;
+	color:#fff;
+	line-height:38px;
+	padding-left:16px;
+	background:url(images/interface/h3bg.jpg) repeat-x;
+	}
+.product_gallaryIner{
+	width:227px;
+	height:200px;
+	}
+.product_gallaryIner h4{
+	font-size:12px;
+	color:#036ab5;
+	line-height:24px;
+	}
+.product_gallaryIner p{
+	font-size:11px;
+	color:#464646;
+	line-height:16px;
+	}
+.left_scoller{
+	width:20px;
+	height:22px;
+	position:absolute;
+	left:30px;
+	top:250px;
+	z-index:5000;
+	background:url(../images/interface/left_scoller.png) no-repeat;
+	}
+.right_scoller{
+	width:20px;
+	height:22px;
+	position:absolute;
+	right:30px;
+	top:250px;
+	z-index:5000;
+	background:url(../images/interface/right_scoller.png) no-repeat;
+	}
+.gellery_scoller{
+	
+	width:100%;
+	overflow:hidden;
+/*	width:950px;
+	height:200px;
+*/	overflow:hidden;
+/*	position:absolute;
+*/	left:0;
+	bottom:0;
+	}
+
+.gellery_scoller ul{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	}
+.gellery_scoller ul li{
+/*	width:238px;
+*/	list-style:none;
+	float:left;
+	}
+.content_bottom{
+	width:100%;
+/*	width:950px;
+*/	overflow:hidden;
+	margin-top:22px;
+	}
